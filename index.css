@@ -1,0 +1,154 @@
+/* start font */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* start body */
+body {
+    color: black;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* end body */
+
+/* start debug */
+.bg-blue {
+    background-color: aliceblue;
+}
+
+.bg-red {
+    background-color: crimson;
+}
+/* end debug */
+
+/* start container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%
+}
+
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%
+}
+/* end container */
+
+/* start logo */
+.logo {
+    text-align: center;
+}
+/* end logo */
+
+/* start anchor / hyperlink */
+a:link,
+a:visited {
+        color: black;
+        text-decoration: none;
+}
+a:hover,
+a:active {
+    color: white;
+    text-decoration: underline;
+}
+/* end anchor / hyperlink */
+
+/* start menu primer*/
+.menu-primer ul {
+    background-color : black;
+    border-radius: 4px;
+    box-shadow:
+        0 3px 5px -1px rgba(red, green, blue, alpha)
+        0 6px 10px 0 rgba(red, green, blue, alpha)
+        0 1px 10px 0 rgba(red, green, blue, alpha)
+}
+
+.menu-primer li {
+    border-right: 1px solid #d1d5da;
+    display: inline-block;
+}
+
+.menu-primer a {
+    color: #ffffff;
+    font-size: 13px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+/* end menu primer */
+
+/* start heading */
+h1, h2, h3, h4, h5, h6, {
+    font-weight: 400;
+    letter-spacing: 1px;
+} 
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+/* end heading */
+/* start jumbotron */
+.jumbotron {
+    background-color: gray;
+    border: 1px solid #eaecef;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* end jumbotron */
+
+/* start main */
+.main-home-one {
+    float: left;
+    width: 49.5;
+}
+.main-home-two {
+    float: right;
+    width: 49.5%;
+}
+
+.main-home-one .box-isi,
+.main-home-one .box-isi {
+    height: 140px;
+}     
+/* end main */
+
+/* start box */
+.box-heading {
+    background-color: #f6f8fa;
+    border: 1px solid #d1d5da;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+.box-isi {
+    background-color: #ffffff;
+    border: 1px solid #eaecef;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/* end box */
